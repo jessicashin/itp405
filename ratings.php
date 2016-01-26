@@ -43,6 +43,7 @@ $dvds = $statement->fetchAll(PDO::FETCH_OBJ); //static property
 
 	<body>
 		<div class="container">
+			<h4><a href="index.php"><span class="glyphicon glyphicon-chevron-left"></span>Back to Search</a></h4>
       <h2>All DVDs with rating "<?php echo $rating ?>":</h2><br>
       <?php foreach ($dvds as $d) : ?>
         <p><?php echo $d->title ?></p>
@@ -53,7 +54,7 @@ $dvds = $statement->fetchAll(PDO::FETCH_OBJ); //static property
       <div class="footer-container">
         <p class="text-muted">
           <span class="footer-text">ITP-405</span>
-          <span class="footer-text">1/26/16</span>
+          <span class="footer-text">January 26 2016</span>
           <span class="footer-text">Jessica Shin</span>
           <span class="footer-text">Assignment 2: DVD Search with PDO</span>
         </p>

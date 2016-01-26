@@ -53,9 +53,10 @@ $dvds = $statement->fetchAll(PDO::FETCH_OBJ); //static property
 		<div class="container">
 			<?php
 				if (empty($dvds)){ ?>
-					<h1>No results found.</h1>
+					<h1>No results found matching "<?php echo $dvd ?>".</h1>
 					<h2><a href="index.php">Click here to try another search!</a></h2>
 				<?php } else { ?>
+			<h4><a href="index.php"><span class="glyphicon glyphicon-chevron-left"></span>Back to Search</a></h4>
 			<h2>You searched for "<?php echo $dvd ?>":</h2><br>
 			<table class="table table-striped">
 				<tr>
@@ -80,7 +81,7 @@ $dvds = $statement->fetchAll(PDO::FETCH_OBJ); //static property
       <div class="footer-container">
         <p class="text-muted">
 					<span class="footer-text">ITP-405</span>
-					<span class="footer-text">1/26/16</span>
+					<span class="footer-text">January 26 2016</span>
 					<span class="footer-text">Jessica Shin</span>
 					<span class="footer-text">Assignment 2: DVD Search with PDO</span>
 				</p>

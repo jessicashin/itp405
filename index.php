@@ -30,7 +30,7 @@
       <div class="footer-container">
         <p class="text-muted">
 					<span class="footer-text">ITP-405</span>
-					<span class="footer-text">1/26/16</span>
+					<span class="footer-text">January 26 2016</span>
 					<span class="footer-text">Jessica Shin</span>
 					<span class="footer-text">Assignment 2: DVD Search with PDO</span>
 				</p>
