@@ -1,2 +1,2 @@
-# itp405-jessica-shin-a2
-DVD Search with PDO
+# DVD Search with PDO
+Assignment 2 for ITP-405
